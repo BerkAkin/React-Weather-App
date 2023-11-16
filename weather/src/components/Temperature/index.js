@@ -3,7 +3,10 @@ import { useContext } from 'react'
 import Sehir from '../../contexts/SearchContext/SearchContext'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 import './style.css'
-
+import Humid from '../Details/Humid'
+import Temps from '../Details/Temps'
+import Wind from '../Details/Wind'
+import Sunrise from '../Details/Sunrise'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,7 +25,28 @@ function Temperature() {
           <div className='row '><p className=' text-center'>Hissedilen Sıcaklık : 13 °C</p></div>
         </div>
         <hr/>
-         <div className='row' style={{height:'33vh'}}></div>
+
+
+         <div className='container-fluid ' style={{height:'33vh'}}>
+
+         <div className='row  h-50'>
+            <div className='col-6 '><Humid/></div>
+            <div className='col-6 '><Sunrise/></div>
+          </div>
+          <div className='row  h-50'>
+            <div className='col-6 '><Temps/></div>
+            <div className='col-6 '><Wind/></div>
+          </div>
+
+          
+          
+          
+          
+
+
+         </div>
+
+
       </div>
       
      
