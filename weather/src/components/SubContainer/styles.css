@@ -1,0 +1,65 @@
+.secimDark{
+    color: #fafafa;
+    background-color:#484b6a;
+    border: 1px solid rgba(128, 128, 128, 0.111)
+}
+
+.settingsDark{
+    color: #e4e5f1;
+    background-color:#484b6a;
+    border: 1px solid rgba(128, 128, 128, 0.111)
+}
+
+.currentDark{
+    color: #fafafa;
+    background-color:#484b6a;
+    border: 1px solid rgba(128, 128, 128, 0.111)
+}
+
+.hourlyDark{
+    color: #d2d3db;
+    background-color:#484b6a;
+    border: 1px solid rgba(128, 128, 128, 0.111)
+}
+
+.dailyDark{
+    color: #9394a5;
+    background-color:#484b6a;
+    border: 1px solid rgba(128, 128, 128, 0.111)
+}
+
+
+
+.secimLight{
+    background-color: #d2d3db;
+    color:#484b6a;
+    border: 1px solid rgb(191, 191, 191)
+}
+
+.settingsLight{
+    background-color: #e4e5f1;
+    color:#484b6a;
+    border: 1px solid rgb(191, 191, 191)
+
+}
+
+.currentLight{
+    background-color: #e4e5f1;
+    color:#484b6a;
+    border: 1px solid rgb(191, 191, 191)
+
+}
+
+.hourlyLight{
+    background-color: #d2d3db;
+    color:#484b6a;
+    border: 1px solid rgb(191, 191, 191)
+
+}
+
+.dailyLight{
+    background-color: #9394a5;
+    color:#484b6a;
+    border: 1px solid rgb(191, 191, 191)
+
+}
