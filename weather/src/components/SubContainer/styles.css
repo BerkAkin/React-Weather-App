@@ -1,7 +1,6 @@
 .secimDark{
     color: #fafafa;
     background-color:#484b6a;
-    border: 1px solid rgba(128, 128, 128, 0.111)
 }
 
 .settingsDark{
@@ -13,7 +12,6 @@
 .currentDark{
     color: #fafafa;
     background-color:#484b6a;
-    border: 1px solid rgba(128, 128, 128, 0.111)
 }
 
 .hourlyDark{
@@ -33,20 +31,18 @@
 .secimLight{
     background-color: #d2d3db;
     color:#484b6a;
-    border: 1px solid rgb(191, 191, 191)
 }
 
 .settingsLight{
-    background-color: #e4e5f1;
+    background-color: #d2d3db;
     color:#484b6a;
     border: 1px solid rgb(191, 191, 191)
 
 }
 
 .currentLight{
-    background-color: #e4e5f1;
+    background-color: #d2d3db;
     color:#484b6a;
-    border: 1px solid rgb(191, 191, 191)
 
 }
 
@@ -58,7 +54,7 @@
 }
 
 .dailyLight{
-    background-color: #9394a5;
+    background-color: #d2d3db;
     color:#484b6a;
     border: 1px solid rgb(191, 191, 191)
 
