@@ -1,0 +1,11 @@
+.dropdown{
+    width: 100%;
+    border: none;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.dropdown:focus{
+    border:none;
+    outset:none
+}
