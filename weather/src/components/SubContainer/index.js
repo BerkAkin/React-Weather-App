@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import SearchBar from '../SearchBar';
 import Temperature from '../Temperature';
 import { SehirProvider } from '../../contexts/SearchContext/SearchContext';
