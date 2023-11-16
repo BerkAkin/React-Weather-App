@@ -7,5 +7,5 @@
 
 .dropdown:focus{
     border:none;
-    outset:none
+    outline:none
 }
