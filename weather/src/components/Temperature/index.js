@@ -1,8 +1,12 @@
 import React from 'react'
+import { useContext } from 'react'
+import Sehir from '../../contexts/SearchContext/SearchContext'
+
 
 function Temperature() {
+  const {city,setCity} = useContext(Sehir)
   return (
-    <div>Temperature</div>
+    <div>{city}</div>
   )
 }
 
