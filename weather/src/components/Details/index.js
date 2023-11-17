@@ -1,9 +1,8 @@
 import React from 'react'
 import { useContext } from 'react'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.css'
 
+import './style.css'
 
 function Details() {
   const {theme} = useContext(Theme)

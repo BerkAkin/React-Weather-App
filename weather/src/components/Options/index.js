@@ -1,7 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Options() {

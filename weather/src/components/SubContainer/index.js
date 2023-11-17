@@ -7,7 +7,7 @@ import Options from '../Options';
 import { useContext } from 'react';
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './styles.css'
 
 function SubContainer() {
