@@ -5,8 +5,6 @@ import Theme from '../../contexts/ThemeContext/ThemeContext'
 import Details from '../Details'
 import './style.css'
 
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -24,18 +22,10 @@ function Temperature() {
           <div className='row '><p className=' text-center'>Hissedilen Sıcaklık : 13 °C</p></div>
         </div>
         <hr/>
-
-
          <div style={{height:'35vh'}}>
-
           <Details/>
-
          </div>
-
-
       </div>
-      
-     
     </>
   )
 }
