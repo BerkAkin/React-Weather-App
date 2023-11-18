@@ -1,11 +1,27 @@
-.dropdown{
+.dropdownLight{
     width: 100%;
     border: none;
     border-radius:10px;
     padding: 10px;
 }
 
-.dropdown:focus{
+.dropdownLight:focus{
     border:none;
     outline:none
+}
+
+.dropdownDark{
+    width: 100%;
+    border: none;
+    border-radius:10px;
+    padding: 10px;
+    background-color: #313349;
+    color:#f4f4f4
+}
+
+.dropdownDark:focus{
+    border:none;
+    outline:none;
+    background-color: #313349;
+    color:#f4f4f4
 }
