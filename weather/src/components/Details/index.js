@@ -12,7 +12,7 @@ function Details() {
 
             <div className='row h-50'>
               <div className='col-6 '>
-                <div className={`rounded container  h-100 CardHumid${theme}`}>
+                <div className={`rounded container  h-100 Card${theme}`}>
                   <div className='text-center mt-1 '>
                     <span className='fw-bold'>Sıcaklıklar</span>
                   </div>
@@ -28,7 +28,7 @@ function Details() {
               </div>
 
               <div className='col-6'>
-                <div className={`rounded container h-100 CardHumid${theme}`}>
+                <div className={`rounded container h-100 Card${theme}`}>
                   <div className='text-center mt-1'>
                     <span className='fw-bold'>Nem ve Basınç</span>
                   </div>
@@ -46,7 +46,7 @@ function Details() {
 
             <div className='row h-50'>
               <div className='col-6'>
-                <div className={`rounded container mt-3  h-100 CardHumid${theme}`}>
+                <div className={`rounded container mt-3  h-100 Card${theme}`}>
                   <div className='text-center mt-1'>
                     <span className='fw-bold'>Rüzgar</span>
                   </div>
@@ -62,7 +62,7 @@ function Details() {
               </div>
 
               <div className='col-6'>
-                <div className={`rounded container mt-3  h-100 CardHumid${theme}`}>
+                <div className={`rounded container mt-3  h-100 Card${theme}`}>
                   <div className='text-center mt-1'>
                     <span className='fw-bold'>Güneş Durumu</span>
                   </div>
@@ -76,6 +76,7 @@ function Details() {
                   </div>
                 </div>
               </div>
+              
             </div>
 
 

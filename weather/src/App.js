@@ -1,17 +1,10 @@
 import Container from "./components/Container";
-import './style.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-
   return (
     <>
-
-    
       <Container/>
-
-
-
     </>
   );
 }

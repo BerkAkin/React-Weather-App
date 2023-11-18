@@ -1,7 +1,7 @@
 import React from 'react'
+
 import { useContext } from 'react'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
-
 
 function Options() {
   const {theme,toggleTheme} = useContext(Theme)
@@ -17,11 +17,8 @@ function Options() {
               <label className="form-check-label py-2 float-end " htmlFor="darkSwitch"><img width="50" src={`/${theme}.png`}></img></label>
             </div>
           </div>
-          
         </div>
-        
       </div>
-      
     </>
   )
 }

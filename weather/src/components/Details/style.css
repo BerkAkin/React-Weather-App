@@ -1,10 +1,10 @@
-.CardHumidDark{
+.CardDark{
     background-color: #36395b;
     border: 1px solid #2b2d48;
     color:#f4f4f4
 }
 
-.CardHumidLight{
+.CardLight{
     background-color: #e7e7e7;
     border: 1px solid #fafafa;
     color: #313349;

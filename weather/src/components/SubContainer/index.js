@@ -1,22 +1,21 @@
 import React from 'react'
 import SearchBar from '../SearchBar';
 import Temperature from '../Temperature';
-import { SehirProvider } from '../../contexts/SearchContext/SearchContext';
 import Options from '../Options';
 
-import { useContext } from 'react';
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 
+import { SehirProvider } from '../../contexts/SearchContext/SearchContext';
+import { useContext } from 'react';
 
 import './styles.css'
 
-function SubContainer() {
-    const {theme} = useContext(Theme)
-    console.log(theme)
-  return (
-    <div>
-        <SehirProvider>
 
+function SubContainer() {
+  const {theme} = useContext(Theme)
+  return (
+    <>
+        <SehirProvider>
           <div className='container-fluid'>
             <div className='row' style={{height:'10vh'}}>
                 <div className={`col-3 secim${theme}`}><SearchBar/></div>
@@ -28,9 +27,8 @@ function SubContainer() {
             <div className={`col-7 daily${theme}`}></div>
             </div>
           </div>
-          
       </SehirProvider>
-    </div>
+    </>
   )
 }
 
