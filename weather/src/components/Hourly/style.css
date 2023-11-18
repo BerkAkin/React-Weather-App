@@ -1,0 +1,24 @@
+.hourlyCardDark{
+    background-color: #313349;
+    border: 1px solid hsl(236, 25%, 23%);
+    color:#f4f4f4
+}
+
+.hourlyCardLight{
+    background-color: #e7e7e7;
+    border: 1px solid #fafafa;
+    color: #313349;
+}
+
+.hourlyCardSubDark{
+    background-color: #36395b;
+    border: 1px solid hsl(236, 25%, 23%);
+    color:#f4f4f4
+}
+
+.hourlyCardSubLight{
+    background-color: #ffffff;
+    border: 1px solid #fafafa;
+    color: #313349;
+}
+
