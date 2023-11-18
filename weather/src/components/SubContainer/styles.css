@@ -1,31 +1,26 @@
 .secimDark{
     color: #fafafa;
     background-color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .settingsDark{
     color: #e4e5f1;
     background-color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .currentDark{
     color: #fafafa;
     background-color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .hourlyDark{
     color: #d2d3db;
-    background-color:#484b6a;
-    transition: background-color 500ms ease;
+    background-color:#313349;
 }
 
 .dailyDark{
     color: #9394a5;
     background-color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 
@@ -33,30 +28,24 @@
 .secimLight{
     background-color: #d2d3db;
     color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .settingsLight{
     background-color: #d2d3db;
     color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .currentLight{
     background-color: #d2d3db;
     color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .hourlyLight{
-    background-color: #d2d3db;
+    background-color: #f4f4f4;
     color:#484b6a;
-    transition: background-color 500ms ease;
 }
 
 .dailyLight{
     background-color: #d2d3db;
     color:#484b6a;
-    transition: background-color 500ms ease;
-
 }
