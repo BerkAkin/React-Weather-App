@@ -6,7 +6,6 @@
 .settingsDark{
     color: #e4e5f1;
     background-color:#484b6a;
-    border: 1px solid rgba(128, 128, 128, 0.111)
 }
 
 .currentDark{
@@ -36,7 +35,6 @@
 .settingsLight{
     background-color: #d2d3db;
     color:#484b6a;
-    border: 1px solid rgb(191, 191, 191)
 
 }
 
