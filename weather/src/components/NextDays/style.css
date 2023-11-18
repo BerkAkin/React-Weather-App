@@ -1,0 +1,36 @@
+.fullCardDark{
+    background-color: #313349;
+    color:#f4f4f4
+}
+
+.fullCardLight{
+    background-color: #eeeeee;
+    color: #313349;
+}
+
+.dailyLeftContainerDark{
+    background-color: #25273e;
+    color: white;
+}
+
+.dailyLeftContainerLight{
+    color: #25273e;
+    background-color: #acacac;
+}
+
+.dailyContainerMidBottomDark{
+    font-size: larger;
+    letter-spacing: 1.5px;
+}
+
+
+.dailyRightContainerDark{
+    background-color: #36395b;
+    color:#f4f4f4
+}
+
+.dailyRightContainerLight{
+    background-color: #ffffff;
+    color: #313349;
+}
+
