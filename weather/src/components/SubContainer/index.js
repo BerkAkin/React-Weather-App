@@ -2,6 +2,8 @@ import React from 'react'
 import SearchBar from '../SearchBar';
 import Temperature from '../Temperature';
 import Options from '../Options';
+import Hourly from '../Hourly';
+import NextDays from '../NextDays';
 
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 
@@ -23,8 +25,8 @@ function SubContainer() {
             </div>
             <div className='row' style={{height:'90vh'}}>
             <div className={`col-3 current${theme}`}><Temperature/></div>
-            <div className={`col-2 hourly${theme}`}></div>
-            <div className={`col-7 daily${theme}`}></div>
+            <div style={{padding:0}} className={`col-2 hourly${theme}`}><Hourly/></div>
+            <div className={`col-7 daily${theme}`}><NextDays/></div>
             </div>
           </div>
       </SehirProvider>
