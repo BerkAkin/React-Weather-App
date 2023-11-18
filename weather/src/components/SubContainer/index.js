@@ -23,11 +23,18 @@ function SubContainer() {
                 <div className={`col-3 secim${theme}`}><SearchBar/></div>
                 <div className={`col-9 settings${theme}`}><Options/></div>
             </div>
+
             <div className='row' style={{height:'90vh'}}>
-            <div className={`col-3 current${theme}`}><Temperature/></div>
-            <div style={{padding:0}} className={`col-2 hourly${theme}`}><Hourly/></div>
-            <div className={`col-7 daily${theme}`}><NextDays/></div>
+              <div className={`col-5 current${theme}`}>
+                <div className='row'>
+                  <div className='col-7 pe-0 rounded-start'><Temperature/></div>
+                  <div className={`hourly${theme} p-0 rounded-end col-5`} ><Hourly/></div>
+                </div>
+              </div>
+              <div className={`col-7 daily${theme}`}><NextDays/></div>
             </div>
+
+
           </div>
       </SehirProvider>
     </>
