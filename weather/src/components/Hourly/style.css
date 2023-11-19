@@ -1,5 +1,5 @@
 .hourlyCardDark{
-    background-color: #222437;
+    background-color: #25273e;
     border: 1px solid hsl(236, 25%, 23%);
     color:#f4f4f4
 }
@@ -13,12 +13,14 @@
 .hourlyCardSubDark{
     background-color: #131521;
     border: 1px solid hsl(236, 25%, 23%);
-    color:#f4f4f4
+    color:#f4f4f4;
+    border:1px solid black 
 }
 
 .hourlyCardSubLight{
     background-color: #ffffff;
     border: 1px solid #fafafa;
     color: #313349;
+    border:1px solid rgb(208, 208, 208)
 }
 

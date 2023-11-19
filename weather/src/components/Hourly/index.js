@@ -8,33 +8,287 @@ function Hourly() {
 
   return (
     <>
-      <div className={`rounded mt-1 container hourlyCard${theme}`}>
+      <div className={`rounded-end container hourlyCard${theme}`}>
         <div className='row'>
-          <div className='col-12' style={{height:'10vh'}}>
+          <div className='col-12' style={{height:'10.5vh'}}>
             <div className='h-100 row'>
-              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded`}><img width={80}  src='/cloud.png'></img></div>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
               <div className='col-8 '>
-                <div className='row h-50 '>
-                  <div className='col-5 text-center pt-2'><p className='border-dark border rounded-pill'>12°C</p></div>
-                  <div className='col-7 text-center  h-100'>
-                    <div className='row h-50'><small>Pazartesi</small></div>
-                    <div className='row h-50'><small>15:40</small></div>
-                  </div>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
                 </div>
                 <hr className='m-1'/>
                 <div className='row h-50'>
-                  <div className='col-12 pt-0 text-center'>Parçalı Bulutlu</div>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div> 
-      
-      
 
-      
-      
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div className={`rounded-end container hourlyCard${theme}`}>
+        <div className='row'>
+          <div className='col-12' style={{height:'10.5vh'}}>
+            <div className='h-100 row'>
+              <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
+                <div className='row text-center'>
+                  <span>
+                    <img width={55}  src='/cloud.png'></img>
+                  </span>
+                </div>
+                <div className='row'>
+                  <span className='text-center fw-bold'>12°C</span>
+                </div>
+                
+              </div>
+              <div className='col-8 '>
+                <div className='row h-50 text-center align-items-center'>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>Pazartesi</small>
+                    </div>
+                    <div className='col-6 mt-2'>
+                      <small className='fw-bold'>15:40</small>
+                    </div>
+                </div>
+                <hr className='m-1'/>
+                <div className='row h-50'>
+                  <div className='col-12 pt-0 text-center'>
+                    <span className='fw-bold'>Parçalı Bulutlu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
       
     </>
   )
