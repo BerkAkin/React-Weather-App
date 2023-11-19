@@ -1,11 +1,15 @@
 .fullCardDark{
-    background-color: #313349;
-    color:#f4f4f4
+    background-color: #131521;
+    color:#f4f4f4;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .fullCardLight{
-    background-color: #eeeeee;
+    background-color: #ffffff;
     color: #313349;
+    border-left: 1px solid rgb(208, 208, 208);
+    border-right: 1px solid rgb(208, 208, 208);
 }
 
 .dailyLeftContainerDark{
@@ -15,22 +19,42 @@
 
 .dailyLeftContainerLight{
     color: #25273e;
-    background-color: #acacac;
+    background-color: #f4f4f4;
 }
 
 .dailyContainerMidBottomDark{
     font-size: larger;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
+}
+
+.dailyContainerMidBottomLight{
+    font-size: larger;
+    letter-spacing: 1.2px;
 }
 
 
 .dailyRightContainerDark{
-    background-color: #36395b;
+    background-color: #25273e;
     color:#f4f4f4
 }
 
 .dailyRightContainerLight{
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     color: #313349;
 }
 
+.lastBorderDark{
+    border-right: 1px solid black;
+}
+
+.lastBorderLight{
+    border-right: 1px solid rgb(208, 208, 208);
+}
+
+.botBorderDark{
+    border-bottom: 1px solid black;
+}
+
+.botBorderLight{
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
