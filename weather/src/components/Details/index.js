@@ -8,9 +8,7 @@ import './style.css'
 function Details() {
   const {theme} = useContext(Theme)
   const {data} = useContext(Sehir)
-  const UnixtoDate = (ts)=>{
-    return new Date(ts*1000);
-  }
+
 
     return (
         <>
