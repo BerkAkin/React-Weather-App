@@ -1,9 +1,21 @@
 .topContextDark{
-    background-color: #313349;
+    background-color: #373952;
     color:#f4f4f4
 }
 
 .topContextLight{
     background-color: #f4f4f4;
+    color: #313349;
+}
+
+.innerTabDark{
+    background-color: #25273e;
+    border: 1px solid #2b2d48;
+    color:#f4f4f4
+}
+
+.innerTabLight{
+    background-color: #e7e7e7;
+    border: 1px solid #fafafa;
     color: #313349;
 }
