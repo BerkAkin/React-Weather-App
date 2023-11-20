@@ -32,8 +32,8 @@ function SubContainer() {
                 </div>
               </div>
               <div className={`col-7 daily${theme}`}>
-                <div className='container rounded' style={{height:'85.5vh'}}>
-                  <div className='row '><NextDays/></div>
+                <div className='container  rounded' style={{height:'85.5vh'}}>
+                  <div className='row'><NextDays/></div>
                 </div>
               </div>
             </div>
