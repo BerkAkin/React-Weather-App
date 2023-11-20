@@ -8,15 +8,16 @@ function Hourly() {
 
   const {theme} = useContext(Theme)
   const {data} = useContext(Sehir)
+  const days = ['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi']
 
   return (
     <>
-    {data ? data['list'].slice(0,8).map((item)=>{
+    {data ? data['list'].slice(0,8).map((item,index)=>{
       return (
-        <>
-          <div className={`rounded-end container hourlyCard${theme}`}>
+        <div key={index}>
+          <div  className={`rounded-end container mt-1 hourlyCard${theme}`}>
             <div className='row'>
-              <div className='col-12' style={{height:'10.5vh'}}>
+              <div className='col-12 ' style={{height:'10vh'}}>
                 <div className='h-100 row'>
                   <div className={`col-4 ps-1 hourlyCardSub${theme} rounded-end`}>
                     <div className='row text-center'>
@@ -30,14 +31,19 @@ function Hourly() {
                     
                   </div>
                   <div className='col-8 '>
-                    <div className='row h-50 text-center align-items-center'>
-                        <div className='col-12 mt-2'>
-                          <small className='display-6 fw-bold'>{item['dt_txt'].slice(10,16)}</small>
+                    <div className='row h-50'>
+                        <div className='col-5 align-items-center justify-content-center d-flex fw-bold'>
+                          {days[new Date(item['dt_txt']).getDay()]}
+                        </div>
+                        
+                        <div className='col-7 text-center'>
+                          <small className='fw-bold h2'>{item['dt_txt'].slice(10,16)}</small>
                         </div>
                     </div>
+                    <hr className='m-0 p-0'/>
                     <div className='row pt-2 h-50'>
                       <div className='col-12 pt-0 text-center'>
-                        <span className='fw-bold'>{item['weather'][0]['description']}</span>
+                        <span style={{textTransform:'capitalize'}} className='fw-bold'>{item['weather'][0]['description']}</span>
                       </div>
                     </div>
                   </div>
@@ -45,7 +51,7 @@ function Hourly() {
               </div>
             </div>
           </div> 
-        </>
+        </div>
       )
     }):""} 
 
