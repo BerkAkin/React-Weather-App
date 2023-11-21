@@ -26,7 +26,7 @@ function Temperature() {
             <p>{data ? data['list'][0]['weather'][0]['description']:' '}</p>
           </div>
           <div className='row  justify-content-center'>
-            <p className='border border-dark rounded-pill w-25 text-center' style={{fontSize:'1.6em'}}>{data ? data['list'][0]['main']['temp'].toFixed(0):''} °C</p>
+            <p className='border rounded-pill w-25 text-center' style={{fontSize:'1.6em'}}>{data ? data['list'][0]['main']['temp'].toFixed(0):''} °C</p>
           </div>
           <div className='row '>
             <p className=' text-center'>Hissedilen Sıcaklık : {data ? data['list'][0]['main']['feels_like'].toFixed(0):''} °C</p>
