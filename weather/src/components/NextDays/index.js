@@ -51,39 +51,53 @@ function NextDays() {
       </div>
       {daysList.map((item)=>{
       return(
+
         <div key={item.id} className={`container mt-3 pt-1`}>
           <div className='row'style={{height:'17vh'}}>
 
-            <div className={`col p-0 rounded-start`}>
-              <div className='row h-25'></div>
-              <div className={`text-center rounded-start d-flex justify-content-evenly align-items-center dailyLeftContainer${theme}`}>
-                <div className='col-3'>
-                  <img height={68} width={68} className='ms-1 ' src={data ? `http://openweathermap.org/img/wn/`+item.icon+`@4x.png`: " "}></img> 
-                </div>
-                <div className='col-3'>
-                   <small className='display-6'> {item.temp.toFixed(0)}°C</small>
-                </div>
-                <div className='col-6'>
-                  <span style={{textTransform:'capitalize'}} className={`dailyContainerMidBottom${theme}`}>{item.weather}</span>
+            <div className={`col-4 h-75 rounded-start rounded-top fullCard${theme}`}>
+              <div className='container p-0  h-100'>
+                <div className='row h-100'>
+                  <div className='col-8 d-flex align-items-center'>
+                    <span className='display-6 '>{days[new Date(item.text).getDay()]}</span>
+                  </div>
+                  <div className='col-4'>
+                    <div className='row h-50'>
+                      <span className='text-center'><img width={60}  src={data ? `http://openweathermap.org/img/wn/`+item.icon+`@4x.png`: " "}></img> </span>
+                      
+                    </div>
+                    <div className='row p-0 mt-1 text-center h-50'>
+                      <small className='h3'> {item.temp.toFixed(0)}°C</small>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className='h-25'></div>
+              
             </div>
 
-            <div className={`col-4 h-75 rounded align-items-center d-flex justify-content-center fullCard${theme}`}>
-              <div className='display-6'>{days[new Date(item.text).getDay()]}</div>
+            <div className={`col-4 p-0 `}>
+              <div className='container-fluid h-100 p-0'>
+                <div className='h-25'></div>
+                <div className={`text-center h-50 d-flex justify-content-evenly align-items-center dailyLeftContainer${theme}`}>
+                  <div className='col-12zez'>
+                    <span style={{textTransform:'capitalize'}} className={`dailyContainerMidBottom${theme}`}>{item.weather}</span>
+                  </div>
+                </div>
+                <div className='h-25 '></div>
+              </div>
             </div>
 
-            <div className={`col p-0 pb-1 rounded-end  `}>
+
+            <div className={`col-4 p-0 `}>
               <div className={`container-fluid h-100`}>
                 <div className='row h-25'></div>
-                <div className={`row text-center rounded-end h-50 dailyRightContainer${theme}`}>
+                <div className={`row h-50 text-center rounded-end dailyRightContainer${theme}`}>
 
-                  <div className={`col-4 lastBorder${theme}`}>
+                  <div className={`col-4`}>
                     <div className='row mt-2'><span><img width={30} src={`/wind${theme}.png`}></img></span></div>
                     <div><span className='fw-bold'>{item.wind} km/h</span></div>
                   </div>
-                  <div className={`col-4 lastBorder${theme}`}>
+                  <div className={`col-4`}>
                     <div className='row mt-2'><span><img width={30} src={`/feel${theme}.png`}></img></span></div>
                     <div><span className='fw-bold'>{item.feel.toFixed()}°C</span></div>
                   </div>
@@ -92,6 +106,7 @@ function NextDays() {
                     <div><span className='fw-bold'>% {item.clouds}</span></div>
                   </div>
                 </div>
+                <div className='h-25 '></div>
               </div>
             </div>
 
