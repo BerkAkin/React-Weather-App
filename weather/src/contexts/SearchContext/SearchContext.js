@@ -6,12 +6,11 @@ export const SehirProvider =  ({children}) => {
 
 const [city,setCity] = useState('istanbul')
 const [data,setData] = useState()
-
-
+const apiKey = process.env.REACT_APP_WEATHER_API_KEY
 useEffect(()=>{
 
     const fetchData = async ()=>{
-    await axios(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=37be047628ceec12566a19752a2bab69&units=metric&lang=tr`)
+    await axios(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric&lang=tr`)
     .then((hava)=>setData(hava.data))
     .catch((err)=>console.log(err))
     }

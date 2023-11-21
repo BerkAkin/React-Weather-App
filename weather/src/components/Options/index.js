@@ -14,7 +14,7 @@ function Options() {
           <div className='col-3'>
             <div className='row'>
               <div className='col-4 d-flex justify-content-end align-items-center'>
-                <a href='https://github.com/BerkAkin' target='blank'><img className='rounded-pill' width={55} src='https://avatars.githubusercontent.com/berkakin'></img></a>
+                <a href='https://github.com/BerkAkin' target='blank'><img className='rounded-pill border' width={55} src='https://avatars.githubusercontent.com/berkakin'></img></a>
               </div>
               <div className='col-4 d-flex justify-content-start align-items-center'>
                 <a href='https://www.linkedin.com/in/berk-ak%C4%B1n-6a636121a/' target='blank'><img width={45} src={`/li${theme}.png`}></img></a>
