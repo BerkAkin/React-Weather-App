@@ -35,9 +35,9 @@ function NextDays() {
     <>
       <div className='container'>
         <div className='row'>
-          <div className='col'></div>
+          <div className='col'><span className='display-5 '>Günlük Özet</span></div>
           <div className='col d-flex align-items-center justify-content-center'>
-            <span className='display-5 '>Günlük Özet</span>
+            
           </div>
           <div className='col'>
             <div className='row h-100 d-flex align-items-end text-center'>
