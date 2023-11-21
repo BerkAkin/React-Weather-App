@@ -10,6 +10,7 @@ function NextDays() {
   let daysList = []
 
   const days = ['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi']
+  const months = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık']
  
   if(data){
     for (var i = 8; i < data.list.length; i+=8) {
@@ -58,15 +59,20 @@ function NextDays() {
             <div className={`col-4 h-75 rounded-start fullCard${theme}`}>
               <div className='container p-0  h-100'>
                 <div className='row h-100'>
-                  <div className='col-8 d-flex align-items-center'>
-                    <span className='display-6 '>{days[new Date(item.text).getDay()]}</span>
+                  <div className='col-8'>
+                    <div className='row h-25'>
+                      <p className='mt-1'><span>{new Date(item.text).getDate()} </span>{months[new Date(item.text).getMonth()]}</p>
+                    </div>
+                    <div className='row pt-2'>
+                      <p className='display-6'>{days[new Date(item.text).getDay()]}</p>
+                    </div>
                   </div>
                   <div className='col-4'>
                     <div className='row h-50'>
                       <span className='text-center'><img width={60}  src={data ? `http://openweathermap.org/img/wn/`+item.icon+`@4x.png`: " "}></img> </span>
                       
                     </div>
-                    <div className='row p-0 mt-1 text-center h-50'>
+                    <div className='row p-0 text-center h-50'>
                       <small className='h3'> {item.temp.toFixed(0)}°C</small>
                     </div>
                   </div>
