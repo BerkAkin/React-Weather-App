@@ -30,7 +30,7 @@ function SubContainer() {
               <div className={`col-xxl-5 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-1 current${theme}`}>
                 <div className='row'>
                   <div className='col-xl-7 col-md-6 p-0 rounded-start'><Temperature/></div>
-                  <div className={`hourly${theme} p-0 col-md-6 col-xl-5 d-xl-block rounded-end`} ><Hourly/></div>
+                  <div className={`hourly${theme} p-0 col-md-6 col-xl-5 rounded-end`} ><Hourly/></div>
                 </div>
               </div>
 
