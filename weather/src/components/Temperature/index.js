@@ -13,7 +13,7 @@ function Temperature() {
 
   return (
     <>
-      <div className={`rounded-start topContext${theme}`} style={{height:'86vh'}}>
+      <div className={`rounded-start topContext${theme}`} style={{height:'86.5vh'}}>
         <div style={{height:'41vh'}} className='d-flex p-2'>
           <div className={`container-fluid rounded innerTab${theme}`}>
             <div className='row h-50 text-center'>
