@@ -1,4 +1,4 @@
-# Componenet Based Weather App using React.js
+# Component Based Weather App using React.js
 
 - Context API
 - Hooks (useState, useEffect, useMemo)
