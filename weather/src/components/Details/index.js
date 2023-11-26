@@ -12,7 +12,7 @@ function Details() {
 
     return (
         <>
-          <div className='container-fluid h-100 mt-2'>
+          <div className='container-fluid h-100'>
 
             <div className='row h-50'>
 
@@ -54,7 +54,7 @@ function Details() {
               </div>
             </div>
 
-            <div className='row h-50'>
+            <div className='row h-50 mt-3'>
               
               <div className='col-6 '>
                 <div className={`rounded container mt-2 h-100 Card${theme}`}>
