@@ -7,7 +7,6 @@ export const SehirProvider =  ({children}) => {
 const [city,setCity] = useState('istanbul')
 const [data,setData] = useState()
 const apiKey = process.env.REACT_APP_WEATHER_API_KEY
-const env = '37be047628ceec12566a19752a2bab69'
 useEffect(()=>{
 
     const fetchData = async ()=>{
