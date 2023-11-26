@@ -40,7 +40,7 @@ function NextDays() {
           <div className='col-md-4 d-sm-none d-none d-sm-block'></div>
           <div className='col-sm-2 col-md-4 d-none d-sm-block'>
             <div className='row h-100 d-flex align-items-end text-center'>
-              <div className='col-4 col-xl-6 col-xxl-4 col-sm-12 col-md-4 border'><span>Rüzgar</span></div>
+              <div className='col-4 col-xl-6 col-xxl-4 col-sm-12 col-md-4 '><span>Rüzgar</span></div>
               <div className='col-4 col-xl-6 col-xxl-4 d-sm-none d-md-block col-md-4'><span>Hissedilen</span></div>
               <div className='col-4 d-sm-block col-xxl-4 d-xxl-block d-md-block col-md-4 d-xl-none d-none d-sm-none'><small>Bulut Oranı</small></div>
             </div>
