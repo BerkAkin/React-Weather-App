@@ -20,22 +20,22 @@ function SubContainer() {
         <SehirProvider>
           <div className='container-fluid'>
             <div className='row' style={{height:'10vh'}}>
-                <div className={`border col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-10 secim${theme}`}><SearchBar/></div>
-                <div className={`border col-xxl-9 col-xl-8 col-lg-6 col-md-6 col-sm-2 d-md-block settings${theme}`}><Options/></div>
+                <div className={`col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-10 secim${theme}`}><SearchBar/></div>
+                <div className={`col-xxl-9 col-xl-8 col-lg-6 col-md-6 col-sm-2 d-md-block settings${theme}`}><Options/></div>
             </div>
 
             <div className='row' style={{height:'90vh'}}>
 
 
-              <div className={`col-xxl-5 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-1 border border-danger current${theme}`}>
+              <div className={`col-xxl-5 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-1 current${theme}`}>
                 <div className='row'>
-                  <div className='col-xl-7 col-md-6 pe-0 rounded-start'><Temperature/></div>
+                  <div className='col-xl-7 col-md-6 p-0 rounded-start'><Temperature/></div>
                   <div className={`hourly${theme} p-0 col-md-6 col-xl-5 d-xl-block rounded-end`} ><Hourly/></div>
                 </div>
               </div>
 
 
-              <div className={`col-xxl-7 col-xl-6 col-lg-12 col-md-12 col-sm-12 border border-success daily${theme}`}>
+              <div className={`col-xxl-7 col-xl-6 col-lg-12 col-md-12 col-sm-12 daily${theme}`}>
                 <div className='container rounded' style={{height:'85.5vh'}}>
                   <div className='row'><NextDays/></div>
                 </div>
