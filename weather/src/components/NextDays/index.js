@@ -102,15 +102,15 @@ function NextDays() {
               <div className={`container-fluid h-100`}>
                 <div className={`row h-75 border-start text-center rounded-end dailyRightContainer${theme}`}>
                   <div className={`col-12 col-md-4 col-xl-6 col-xxl-4`}>
-                    <div className='row mt-3'><span><img width={40} src={`/wind${theme}.png`}></img></span></div><hr className='mt-2 mb-2'/>
+                    <div className='row mt-3'><span><img width={40} src={`./wind${theme}.png`}></img></span></div><hr className='mt-2 mb-2'/>
                     <div><span className='fw-bold' style={{fontSize:'14px'}}>{item.wind.toFixed(1)} <small>km/h</small></span></div>
                   </div>
                   <div className={`col-md-4 d-md-block d-none col-xl-6 col-xxl-4`}>
-                    <div className='row mt-3'><span><img width={40} src={`/feel${theme}.png`}></img></span></div><hr className='mt-2 mb-2'/>
+                    <div className='row mt-3'><span><img width={40} src={`./feel${theme}.png`}></img></span></div><hr className='mt-2 mb-2'/>
                     <div><span className='fw-bold' style={{fontSize:'16px'}}>{item.feel.toFixed()}°C</span></div>
                   </div>
                   <div className={`col-md-4 d-md-block d-none d-xl-none d-xxl-block`}>
-                    <div className='row mt-3'><span><img width={40} src={`/clouds${theme}.png`}></img></span></div><hr className='mt-2 mb-2'/>
+                    <div className='row mt-3'><span><img width={40} src={`./clouds${theme}.png`}></img></span></div><hr className='mt-2 mb-2'/>
                     <div><span className='fw-bold' style={{fontSize:'16px'}}>% {item.clouds}</span></div>
                   </div>
                 </div>
