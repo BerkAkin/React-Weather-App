@@ -18,13 +18,19 @@ function SearchBar() {
   return (
     
     <div>
-      <select className={`my-3 dropdown${theme}`} id='sehirSecimi' onChange={handleChange} value={city}>
-        {turkiye.map((item)=>{
-          return(
-            <option key={item.id} value={item.value} >{item.name}</option>
-          )
-        })}
-      </select>
+      <div className='container'>
+        <div className='row'>
+          <div className='col'>
+            <select className={`my-3 dropdown${theme}`} id='sehirSecimi' onChange={handleChange} value={city}>
+            {turkiye.map((item)=>{
+              return(
+                <option key={item.id} value={item.value} >{item.name}</option>
+              )
+            })}
+             </select>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
