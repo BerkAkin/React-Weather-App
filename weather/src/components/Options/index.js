@@ -8,25 +8,12 @@ function Options() {
   return (
     <>
       <div className='container'>
-        <div className='row'>
-          <div className='col-9'>
-          </div>
-          <div className='col-3'>
-            <div className='row'>
-              <div className='col-4 d-flex justify-content-end align-items-center'>
-                <a href='https://github.com/BerkAkin' target='blank'><img className='rounded-pill border' width={55} src='https://avatars.githubusercontent.com/berkakin'></img></a>
-              </div>
-              <div className='col-4 d-flex justify-content-start align-items-center'>
-                <a href='https://www.linkedin.com/in/berk-ak%C4%B1n-6a636121a/' target='blank'><img width={45} src={`/linkedin${theme}.png`}></img></a>
-              </div>
-              <div className='col-4'>
-                <div className="form-check form-switch">
-                  <label className="form-check-label py-2" htmlFor="darkSwitch"><img width="45" src={`/modSite${theme}.png`}></img></label>
-                  <input className="form-check-input d-none" type="checkbox" role="switch" id="darkSwitch" onChange={toggleTheme} />
-                </div>
-              </div>
-            </div>
-            
+        <div className='row d-flex float-end'>
+          <div className='col-sm-2 d-none d-sm-block'>
+            <label className="mt-3" htmlFor="darkSwitch">
+              <img width="45" src={`/modSite${theme}.png`}></img>
+            </label>
+            <input className="d-none" type="checkbox" role="switch" id="darkSwitch" onChange={toggleTheme} />
           </div>
         </div>
       </div>
