@@ -11,7 +11,7 @@ function Options() {
         <div className='row d-flex float-end'>
           <div className='col-sm-2 d-none d-sm-block'>
             <label className="mt-3" htmlFor="darkSwitch">
-              <img width="45" src={`/modSite${theme}.png`}></img>
+              <img width="45" src={`./modSite${theme}.png`}></img>
             </label>
             <input className="d-none" type="checkbox" role="switch" id="darkSwitch" onChange={toggleTheme} />
           </div>
