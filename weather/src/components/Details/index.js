@@ -9,8 +9,12 @@ function Details() {
   const {theme} = useContext(Theme)
   const {data} = useContext(Sehir)
 
-
-    return (
+ // const {list} = data;
+ // const {0:alp} = list
+ // console.log(alp)
+  
+  
+  return (
         <>
           <div className='container-fluid h-100'>
 

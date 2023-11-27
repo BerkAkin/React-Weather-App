@@ -1,9 +1,9 @@
-import React, { useState,useContext } from 'react'
+import React, {useContext } from 'react'
 
 import Sehir from '../../contexts/SearchContext/SearchContext'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 
-import turkiye from './turkiye'
+import turkiye from '../Data/Cities'
 import './styles.css'
 
 function SearchBar() {

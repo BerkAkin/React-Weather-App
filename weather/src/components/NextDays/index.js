@@ -1,16 +1,16 @@
 import React, {useContext, useState} from 'react'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 import Sehir from '../../contexts/SearchContext/SearchContext'
+import {days, months} from '../Data/Dates'
 import './style.css'
 
 function NextDays() {
   const {theme} = useContext(Theme)
   const {data} = useContext(Sehir)
 
+
   let daysList = []
 
-  const days = ['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi']
-  const months = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık']
  
   if(data){
     for (var i = 8; i < data.list.length; i+=8) {

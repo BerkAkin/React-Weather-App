@@ -1,6 +1,7 @@
-import React, {useState,useContext} from 'react'
+import {useContext} from 'react'
 import Theme from '../../contexts/ThemeContext/ThemeContext'
 import Sehir from '../../contexts/SearchContext/SearchContext'
+import { days } from '../Data/Dates'
 
 import './style.css'
 
@@ -8,7 +9,6 @@ function Hourly() {
 
   const {theme} = useContext(Theme)
   const {data} = useContext(Sehir)
-  const days = ['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi']
 
   return (
     <>
